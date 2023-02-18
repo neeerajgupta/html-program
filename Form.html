@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+   
+           <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 400px;
+           
+        }
+        .form {
+            width: 280px;
+            height: auto;
+            margin-top: 150px;
+            border:1px solid gray;
+            box-shadow: 5px 5px 4px black;
+            padding: 10px;
+            background-color: cadetblue;
+        }
+      
+      
+    </style>
+
+    
+</head>
+<body >
+    <form  method="get"   class="form">
+        <h3 align ="center"><u>Register User</u></h3>
+        <dl>
+           
+            <dt>Full-Name</dt>
+            <dd><input type="text" name="text"></dd>
+           
+            <dt>Father-Name</dt>
+            <dd><input type="text" name="Father-Name"></dd>
+            <dt>Date of Birth</dt>
+            <dd><input type="date" name="Date of birth"></dd>
+            <dt>Gender</dt>
+            <dd><input type="radio" name="Gender">Male</dd>
+            <dd><input type="radio" name="Gender">Female</dd>
+            
+            <dt>Email</dt>
+             <dd>-<input type="email" name="Email" placeholder="xyz123@gmail.com"></dd>
+            <dt>Mob-no</dt>
+             <dd><input type="text" name="Mobile no" pattern="\+91\s?\d{10}" placeholder="+91 7084133523"></dd>
+            <dt>Address</dt>
+            <dd><input type="text" name="Address">
+                <select name="State">
+                <option>Select State</option>
+                <option>Utter Pradesh</option>
+                <option>Bihar</option>
+                <option>Panjab</option>
+                <option>Delhi</option>
+                <option>Gujrat</option>
+                <option>Nagaland</option>
+                <option>Andhra Pradesh</option>
+                <option>Maharastra</option>
+                </select>
+            </dd>
+            
+            <dd>
+                <select name="city">
+                    <option>City</option>
+                <option>Jaunpur</option>
+                <option>sultanpur</option>
+                <option>Ayudhaya</option>
+                <option value="Other">Other</option>
+                </select>
+            </dd>
+        </dl>
+        <p align="center"> <button>Register</button></p>
+       
+
+</body>
+</html>
