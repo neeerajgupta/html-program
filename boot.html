@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login . Instagram</title>
+    <link rel="shortcut icon" href="public/instagram logo.jpg">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        form{
+            border: 1px solid gray;
+            width: 350px;
+            height: 400px;
+            margin-left: 500px;
+            margin-top: 50px;
+        }
+        div img{
+            margin-left: 90px;
+            margin-top: 0px;
+            height: 100px;
+        }
+        #input1{
+            margin-left: 20px;
+            padding: 10px;
+           
+        }
+        input{
+            background-color:rgba(0, 0, 0, 0.1);
+            padding: 5px;
+            border:1px solid gray;
+        }
+        form #input2{
+            margin-left: 30px;
+        }
+        button{
+            background-color: blue;
+            margin-left: 27px;
+            width: 300px;
+            padding: 5px;
+            margin-top: 10px;
+            color: white;
+            font-weight: bold;
+            border: 1px solid;
+            border-radius: 12px;
+        }
+        .or{
+            margin-left: 160px;
+            margin-top: 15px;
+        }
+        .bi-facebook{
+            color: #385185;
+            margin-left: 70px;
+        }
+        .facebook{
+            color: #385185;
+            margin-top: 15px;
+        }
+        .facebook span{
+            padding: 5px;
+        }
+        .forget{
+            margin-left: 120px;
+            margin-top: 20px;
+        }
+        .forget a{
+            text-decoration: none;
+            color: black;
+            font-style:normal;
+        }
+        .second-div{
+            border: 1px solid gray;
+            margin-left: 500px;
+            margin-right: 515px;
+            margin-top: 10px;
+            padding: 15px;
+            text-align: center;
+        }
+        .second-div .span2{
+            color:blue;
+            font-weight: bold;
+            padding: 2px;
+        }
+       
+    </style>
+</head>
+<body>
+    <form action="" method="get">
+        <div>
+            <img src="public/instagram heading.png" alt="">
+        </div>
+        <div id="input1">
+            <input type="text" placeholder="Phone number, username, or email" size="30" required pattern="\d{6-10}">
+        </div>
+        <div id="input2">
+            <input type="password" placeholder="Password" size="30" required pattern="\d{5-10}">
+        </div>
+        <div id="button" class="">
+            <button>Login</button>
+        </div>
+         <div class="or">
+        <span>OR</span>
+         </div>
+         <div class="facebook">
+            <span class="bi bi-facebook"></span><span>Login in with Facebook</span>
+         </div>
+         <div class="forget">
+            <a href="">Forget password?</a>
+         </div>
+    </form>
+
+    <div class="second-div">
+        <div>
+         <span>Don't have an account?</span><span class="span2">Sign up</span>
+        </div>
+    </div>
+</body>
+</html>

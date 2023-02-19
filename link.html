@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link and ancor</title>
+</head>
+<style>
+    iframe {
+       border:none;
+    }
+    body {
+       display: grid;
+       grid-template-columns: 3fr 9fr;
+    }
+    ul {
+       list-style: none;
+    }
+    li {
+       border:1px solid black;
+       background-color: black;
+       color:white;
+       width: 100px;
+       padding: 10px;
+       font-size: 20px;
+       margin-bottom: 20px;
+    }
+    a {
+       text-decoration: none;
+       color:white;
+    }
+</style>
+</head>
+<body>
+<nav>
+   <ul>
+       <li><a href="./Htmlimage/child.jpg" target="frameBody">child</a></li>
+       <li><a href="./Htmlimage/child1.jpg" target="frameBody">small child</a></li>
+       <li><a href="./Htmlimage/Girl.jpg" target="frameBody">Girl</a></li>
+       <li><a href="./Htmlimage/women.jpg" target="frameBody">Women</a></li>
+   </ul>
+</nav>
+<main>
+   <iframe width="100%" name="frameBody" src="home.html" height="500px"></iframe>
+</main>
+</body>
+</html>
